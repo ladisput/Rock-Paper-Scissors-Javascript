@@ -3,9 +3,6 @@ const getUserChoice = (userChoice) => {
     let play = userChoice.toLowerCase();
     if (play === 'rock' || play === 'paper' || play === 'scissors' || play === 'bomb') {
       return play;
-    } 
-    else if (play === 'bomb') {
-        return play;
     }
     else {
       play = 'invalid';
